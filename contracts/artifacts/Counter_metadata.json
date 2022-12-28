@@ -7,7 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,30 +25,38 @@
 			},
 			{
 				"inputs": [],
-				"name": "dec",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "inc",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "destination",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -59,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_First_Example.sol": "Counter"
+			"contracts/5_Ether_Store.sol": "Counter"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -73,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_First_Example.sol": {
-			"keccak256": "0xc5aca3d9bc65adc521771805e8c1dce7012c98340d8e857e98af15fbce2efb28",
+		"contracts/5_Ether_Store.sol": {
+			"keccak256": "0x7c277f6d7638227ad398e09662f2c62ae76d46a876d5ec93ed9ff6455fddc276",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9d8458471e11a9e8bf89b3d36ff4d62054ce97ccf3b33f8f0bba2e7e0d5a4a96",
-				"dweb:/ipfs/QmS1tqX6CbhPCbLLbLM6CmPgx3fVWF1zuUai2yB3ffhTVb"
+				"bzz-raw://49f1f309bc947ce8d352049c7dfcef0f74135b4cf905ac66e9e4f6490414deab",
+				"dweb:/ipfs/QmbNhxeg8XV9v7637WizX9tTHoisXbesxKCmMiuqy9jYee"
 			]
 		}
 	},
