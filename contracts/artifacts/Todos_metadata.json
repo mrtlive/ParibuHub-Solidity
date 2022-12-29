@@ -102,11 +102,11 @@
 	},
 	"sources": {
 		"contracts/6_Todo_dApp.sol": {
-			"keccak256": "0xaeafd59e4b9ff7369a4d3d648d33e3bf742578051e25b9611f8dc3564bc1a262",
+			"keccak256": "0x777638c650f02d89599a31a9ae3c1a1fa8eaf5bd6ed017b951f5beecf43cfce7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cd6dd2bd16b67bb9598334f97300b949e9935562a6c49642d52173dc8e5c95fe",
-				"dweb:/ipfs/QmYkMzgX5vmn1YNAABKE4sRRwgYtjuEcV3pUgg9mKWLdpE"
+				"bzz-raw://7255cc70309eff7cb8e6dfd4996772e9f5cccde65c6da8455648811821f3bdb1",
+				"dweb:/ipfs/QmbsuMpsgkfUaZqL4czom2CGukhTPgwViLQPzActQg2veE"
 			]
 		}
 	},

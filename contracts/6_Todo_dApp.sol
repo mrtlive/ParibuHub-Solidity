@@ -4,7 +4,7 @@ pragma solidity ^0.8.17;
 contract Todos {
     struct Todo {
         string text;
-        bool completed;
+        bool completed; 
     }
 
     Todo[] public todos;
