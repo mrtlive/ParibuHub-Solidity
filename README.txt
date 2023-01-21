@@ -5,6 +5,7 @@ you can find all homeworks in contracts folder
 - 4_First_Example.Sol
 - 5_Ether_Store.sol
 - 6_Todo_dApp.sol
+- 7_Crowd_Fund.sol
 
 
 Remix example project is present when Remix loads very first time or there are no files existing in the File Explorer. 
